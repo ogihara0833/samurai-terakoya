@@ -1,0 +1,11 @@
+ogiha@ogiharanote MINGW64 ~/OneDrive/デスクトップ/springboot/samuraitravel (main)
+$ heroku config
+=== samuraitravel-2025 Config Vars
+
+DB_PASSWORD:           pk0bg7ke2rqp4tlk
+DB_URL:                jdbc:mysql://mcldisu5ppkm29wf.cbetxkdyhwsb.us-east-1.rds.amazonaws.com/awiawt2z01nkyc9r
+DB_USERNAME:           rsssljb0kao8xeqx
+JAWSDB_MARIA_URL:      mysql://rsssljb0kao8xeqx:pk0bg7ke2rqp4tlk@mcldisu5ppkm29wf.cbetxkdyhwsb.us-east-1.rds.amazonaws.com:3306/awiawt2z01nkyc9rMAIL_PASSWORD:         f6592405b194a9
+MAIL_USERNAME:         ogihara.masayukis@gmail.com
+STRIPE_API_KEY:        57ce6aad640ea488493644f7c560c29fb506f015706c3d8720ce7e52ba9a62b5STRIPE_WEBHOOK_SECRET: whsec_5Nc2Fyf8EvKt5bKUzrQIjfLA2SZDc51X
+VAR_NAME:              value

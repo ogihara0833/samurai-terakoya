@@ -1,0 +1,201 @@
+Windows PowerShell
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+新機能と改善のために最新の PowerShell をインストールしてください!https://aka.ms/PSWindows
+
+PS C:\Users\ogiha\OneDrive\デスクトップ> cd C:\springboot\課題\kadai_tutorial_output\springboot\samuraitravel
+PS C:\springboot\課題\kadai_tutorial_output\springboot\samuraitravel> git init
+Initialized empty Git repository in C:/springboot/課題/kadai_tutorial_output/springboot/samuraitravel/.git/
+PS C:\springboot\課題\kadai_tutorial_output\springboot\samuraitravel> git add .
+warning: in the working copy of '.gitattributes', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.gitignore', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.mvn/wrapper/maven-wrapper.properties', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'mvnw.cmd', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'pom.xml', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/main/java/com/example/samuraitravel/SamuraitravelApplication.java', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/main/java/com/example/samuraitravel/controller/AdminHouseController.java', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/main/java/com/example/samuraitravel/controller/AdminUserController.java', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/main/java/com/example/samuraitravel/controller/AuthController.java', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/main/java/com/example/samuraitravel/controller/HomeController.java', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/main/java/com/example/samuraitravel/controller/HouseController.java', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/main/java/com/example/samuraitravel/controller/ReservationController.java', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/main/java/com/example/samuraitravel/controller/StripeWebhookController.java', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/main/java/com/example/samuraitravel/controller/UserController.java', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/main/java/com/example/samuraitravel/entity/House.java', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/main/java/com/example/samuraitravel/entity/Reservation.java', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/main/java/com/example/samuraitravel/entity/Role.java', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/main/java/com/example/samuraitravel/entity/User.java', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/main/java/com/example/samuraitravel/entity/VerificationToken.java', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/main/java/com/example/samuraitravel/event/SignupEvent.java', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/main/java/com/example/samuraitravel/event/SignupEventListener.java', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/main/java/com/example/samuraitravel/event/SignupEventPublisher.java', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/main/java/com/example/samuraitravel/form/HouseEditForm.java', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/main/java/com/example/samuraitravel/form/HouseRegisterForm.java', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/main/java/com/example/samuraitravel/form/ReservationInputForm.java', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/main/java/com/example/samuraitravel/form/ReservationRegisterForm.java', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/main/java/com/example/samuraitravel/form/SignupForm.java', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/main/java/com/example/samuraitravel/form/UserEditForm.java', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/main/java/com/example/samuraitravel/repository/HouseRepository.java', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/main/java/com/example/samuraitravel/repository/ReservationRepository.java', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/main/java/com/example/samuraitravel/repository/RoleRepository.java', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/main/java/com/example/samuraitravel/repository/UserRepository.java', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/main/java/com/example/samuraitravel/repository/VerificationTokenRepository.java', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/main/java/com/example/samuraitravel/security/UserDetailsImpl.java', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/main/java/com/example/samuraitravel/security/UserDetailsServiceImpl.java', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/main/java/com/example/samuraitravel/security/WebSecurityConfig.java', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/main/java/com/example/samuraitravel/service/HouseService.java', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/main/java/com/example/samuraitravel/service/ReservationService.java', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/main/java/com/example/samuraitravel/service/StripeService.java', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/main/java/com/example/samuraitravel/service/UserService.java', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/main/java/com/example/samuraitravel/service/VerificationTokenService.java', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/main/resources/application-development.properties', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/main/resources/application-production.properties', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/main/resources/data.sql', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/main/resources/schema.sql', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/main/resources/static/css/style.css', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/main/resources/static/js/flatpickr.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/main/resources/static/js/preview.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/main/resources/static/js/stripe.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/main/resources/templates/admin/houses/edit.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/main/resources/templates/admin/houses/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/main/resources/templates/admin/houses/register.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/main/resources/templates/admin/houses/show.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/main/resources/templates/admin/users/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/main/resources/templates/admin/users/show.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/main/resources/templates/auth/login.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/main/resources/templates/auth/signup.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/main/resources/templates/auth/verify.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/main/resources/templates/fragment.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/main/resources/templates/houses/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/main/resources/templates/houses/show.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/main/resources/templates/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/main/resources/templates/reservations/confirm.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/main/resources/templates/reservations/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/main/resources/templates/user/edit.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/main/resources/templates/user/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/test/java/com/example/samuraitravel/SamuraitravelApplicationTests.java', LF will be replaced by CRLF the next time Git touches it
+PS C:\springboot\課題\kadai_tutorial_output\springboot\samuraitravel> git commit -m "first commit"
+[main (root-commit) 1e7fb31] first commit
+ 85 files changed, 4900 insertions(+)
+ create mode 100644 .gitattributes
+ create mode 100644 .gitignore
+ create mode 100644 .mvn/wrapper/maven-wrapper.properties
+ create mode 100644 Procfile
+ create mode 100644 move
+ create mode 100644 mvnw
+ create mode 100644 mvnw.cmd
+ create mode 100644 pom.xml
+ create mode 100644 src/main/java/com/example/samuraitravel/SamuraitravelApplication.java
+ create mode 100644 src/main/java/com/example/samuraitravel/controller/AdminHouseController.java
+ create mode 100644 src/main/java/com/example/samuraitravel/controller/AdminUserController.java
+ create mode 100644 src/main/java/com/example/samuraitravel/controller/AuthController.java
+ create mode 100644 src/main/java/com/example/samuraitravel/controller/HomeController.java
+ create mode 100644 src/main/java/com/example/samuraitravel/controller/HouseController.java
+ create mode 100644 src/main/java/com/example/samuraitravel/controller/ReservationController.java
+ create mode 100644 src/main/java/com/example/samuraitravel/controller/StripeWebhookController.java
+ create mode 100644 src/main/java/com/example/samuraitravel/controller/UserController.java
+ create mode 100644 src/main/java/com/example/samuraitravel/entity/House.java
+ create mode 100644 src/main/java/com/example/samuraitravel/entity/Reservation.java
+ create mode 100644 src/main/java/com/example/samuraitravel/entity/Role.java
+ create mode 100644 src/main/java/com/example/samuraitravel/entity/User.java
+ create mode 100644 src/main/java/com/example/samuraitravel/entity/VerificationToken.java
+ create mode 100644 src/main/java/com/example/samuraitravel/event/SignupEvent.java
+ create mode 100644 src/main/java/com/example/samuraitravel/event/SignupEventListener.java
+ create mode 100644 src/main/java/com/example/samuraitravel/event/SignupEventPublisher.java
+ create mode 100644 src/main/java/com/example/samuraitravel/form/HouseEditForm.java
+ create mode 100644 src/main/java/com/example/samuraitravel/form/HouseRegisterForm.java
+ create mode 100644 src/main/java/com/example/samuraitravel/form/ReservationInputForm.java
+ create mode 100644 src/main/java/com/example/samuraitravel/form/ReservationRegisterForm.java
+ create mode 100644 src/main/java/com/example/samuraitravel/form/SignupForm.java
+ create mode 100644 src/main/java/com/example/samuraitravel/form/UserEditForm.java
+ create mode 100644 src/main/java/com/example/samuraitravel/repository/HouseRepository.java
+ create mode 100644 src/main/java/com/example/samuraitravel/repository/ReservationRepository.java
+ create mode 100644 src/main/java/com/example/samuraitravel/repository/RoleRepository.java
+ create mode 100644 src/main/java/com/example/samuraitravel/repository/UserRepository.java
+ create mode 100644 src/main/java/com/example/samuraitravel/repository/VerificationTokenRepository.java
+ create mode 100644 src/main/java/com/example/samuraitravel/security/UserDetailsImpl.java
+ create mode 100644 src/main/java/com/example/samuraitravel/security/UserDetailsServiceImpl.java
+ create mode 100644 src/main/java/com/example/samuraitravel/security/WebSecurityConfig.java
+ create mode 100644 src/main/java/com/example/samuraitravel/service/HouseService.java
+ create mode 100644 src/main/java/com/example/samuraitravel/service/ReservationService.java
+ create mode 100644 src/main/java/com/example/samuraitravel/service/StripeService.java
+ create mode 100644 src/main/java/com/example/samuraitravel/service/UserService.java
+ create mode 100644 src/main/java/com/example/samuraitravel/service/VerificationTokenService.java
+ create mode 100644 src/main/resources/application-development.properties
+ create mode 100644 src/main/resources/application-production.properties
+ create mode 100644 src/main/resources/data.sql
+ create mode 100644 src/main/resources/schema.sql
+ create mode 100644 src/main/resources/static/css/style.css
+ create mode 100644 src/main/resources/static/images/logo.png
+ create mode 100644 src/main/resources/static/images/noImage.png
+ create mode 100644 src/main/resources/static/js/flatpickr.js
+ create mode 100644 src/main/resources/static/js/preview.js
+ create mode 100644 src/main/resources/static/js/stripe.js
+ create mode 100644 src/main/resources/static/storage/0c11fef2-3fee-462d-8abe-f86c8d888be1.jpg
+ create mode 100644 src/main/resources/static/storage/96023e64-8431-4eb6-bd0d-a6a6fc5cca20.jpg
+ create mode 100644 src/main/resources/static/storage/house01.jpg
+ create mode 100644 src/main/resources/static/storage/house02.jpg
+ create mode 100644 src/main/resources/static/storage/house03.jpg
+ create mode 100644 src/main/resources/static/storage/house04.jpg
+ create mode 100644 src/main/resources/static/storage/house05.jpg
+ create mode 100644 src/main/resources/static/storage/house06.jpg
+ create mode 100644 src/main/resources/static/storage/house07.jpg
+ create mode 100644 src/main/resources/static/storage/house08.jpg
+ create mode 100644 src/main/resources/static/storage/house09.jpg
+ create mode 100644 src/main/resources/static/storage/house10.jpg
+ create mode 100644 src/main/resources/templates/admin/houses/edit.html
+ create mode 100644 src/main/resources/templates/admin/houses/index.html
+ create mode 100644 src/main/resources/templates/admin/houses/register.html
+ create mode 100644 src/main/resources/templates/admin/houses/show.html
+ create mode 100644 src/main/resources/templates/admin/users/index.html
+ create mode 100644 src/main/resources/templates/admin/users/show.html
+ create mode 100644 src/main/resources/templates/auth/login.html
+ create mode 100644 src/main/resources/templates/auth/signup.html
+ create mode 100644 src/main/resources/templates/auth/verify.html
+ create mode 100644 src/main/resources/templates/fragment.html
+ create mode 100644 src/main/resources/templates/houses/index.html
+ create mode 100644 src/main/resources/templates/houses/show.html
+ create mode 100644 src/main/resources/templates/index.html
+ create mode 100644 src/main/resources/templates/reservations/confirm.html
+ create mode 100644 src/main/resources/templates/reservations/index.html
+ create mode 100644 src/main/resources/templates/user/edit.html
+ create mode 100644 src/main/resources/templates/user/index.html
+ create mode 100644 src/test/java/com/example/samuraitravel/SamuraitravelApplicationTests.java
+ create mode 100644 system.properties
+PS C:\springboot\課題\kadai_tutorial_output\springboot\samuraitravel> git branch -M main
+PS C:\springboot\課題\kadai_tutorial_output\springboot\samuraitravel> git remote add origin git@github.com:ogihara0833/spring-minshuku-kadai.git
+PS C:\springboot\課題\kadai_tutorial_output\springboot\samuraitravel> git push -u origin main
+Enter passphrase for key '/c/Users/ogiha/.ssh/id_rsa':
+Enumerating objects: 119, done.
+Counting objects: 100% (119/119), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (107/107), done.
+Writing objects: 100% (119/119), 7.44 MiB | 4.01 MiB/s, done.
+Total 119 (delta 28), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (28/28), done.
+remote: error: GH013: Repository rule violations found for refs/heads/main.
+remote:
+remote: - GITHUB PUSH PROTECTION
+remote:   —————————————————————————————————————————
+remote:     Resolve the following violations before pushing again
+remote:
+remote:     - Push cannot contain secrets
+remote:
+remote:
+remote:      (?) Learn how to resolve a blocked push
+remote:      https://docs.github.com/code-security/secret-scanning/working-with-secret-scanning-and-push-protection/working-with-push-protection-from-the-command-line#resolving-a-blocked-push
+remote:
+remote:
+remote:       —— Stripe Test API Secret Key ————————————————————————
+remote:        locations:
+remote:          - commit: 1e7fb3154f0b7e42f63fba695221611a9018fa0c
+remote:            path: src/main/resources/application-development.properties:17
+remote:
+remote:        (?) To push, remove secret from commit(s) or follow this URL to allow the secret.
+remote:        https://github.com/ogihara0833/spring-minshuku-kadai/security/secret-scanning/unblock-secret/2y7ZklAHHQK9HWw5bwS1Me6RCQ9
+remote:
+remote:
+remote:
+To github.com:ogihara0833/spring-minshuku-kadai.git
+ ! [remote rejected] main -> main (push declined due to repository rule violations)
+error: failed to push some refs to 'github.com:ogihara0833/spring-minshuku-kadai.git'

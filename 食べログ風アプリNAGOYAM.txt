@@ -1,0 +1,192 @@
+type system.properties
+type pom.xml
+dir src\main\resources\static\storage
+実行結果
+
+
+C:\springboot\kadai_002\食べログ風アプリ\NAGOYAMESHI>type system.properties
+java.runtime.version=17
+C:\springboot\kadai_002\食べログ風アプリ\NAGOYAMESHI>type pom.xml
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+
+
+        <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+                <modelVersion>4.0.0</modelVersion>
+                <parent>
+                        <groupId>org.springframework.boot</groupId>
+                        <artifactId>spring-boot-starter-parent</artifactId>
+                        <version>3.5.4</version>
+                        <relativePath/>
+                        <!-- lookup parent from repository -->
+                </parent>
+                <groupId>com.example</groupId>
+                <artifactId>NAGOYAMESHI</artifactId>
+                <version>0.0.1-SNAPSHOT</version>
+                <name>NAGOYAMESHI</name>
+                <description>Demo project for Spring Boot</description>
+                <url/>
+                <licenses>
+                        <license/>
+                </licenses>
+                <developers>
+                        <developer/>
+                </developers>
+                <scm>
+                        <connection/>
+                        <developerConnection/>
+                        <tag/>
+                        <url/>
+                </scm>
+                <properties>
+                        <java.version>17</java.version>
+                </properties>
+                <dependencies>
+                        <dependency>
+                                <groupId>org.springframework.boot</groupId>
+                                <artifactId>spring-boot-starter-data-jpa</artifactId>
+                        </dependency>
+                        <dependency>
+                                <groupId>org.springframework.boot</groupId>
+                                <artifactId>spring-boot-starter-mail</artifactId>
+                        </dependency>
+                        <dependency>
+                                <groupId>org.springframework.boot</groupId>
+                                <artifactId>spring-boot-starter-security</artifactId>
+                        </dependency>
+                        <dependency>
+                                <groupId>org.springframework.boot</groupId>
+                                <artifactId>spring-boot-starter-thymeleaf</artifactId>
+                        </dependency>
+                        <dependency>
+                                <groupId>org.springframework.boot</groupId>
+                                <artifactId>spring-boot-starter-validation</artifactId>
+                        </dependency>
+                        <dependency>
+                                <groupId>org.springframework.boot</groupId>
+                                <artifactId>spring-boot-starter-web</artifactId>
+                        </dependency>
+                        <dependency>
+                                <groupId>org.thymeleaf.extras</groupId>
+                                <artifactId>thymeleaf-extras-springsecurity6</artifactId>
+                        </dependency>
+
+                        <dependency>
+                                <groupId>org.springframework.boot</groupId>
+                                <artifactId>spring-boot-devtools</artifactId>
+                                <scope>runtime</scope>
+                                <optional>true</optional>
+                        </dependency>
+                        <dependency>
+                                <groupId>com.mysql</groupId>
+                                <artifactId>mysql-connector-j</artifactId>
+                                <scope>runtime</scope>
+                        </dependency>
+                        <dependency>
+                                <groupId>org.projectlombok</groupId>
+                                <artifactId>lombok</artifactId>
+                                <optional>true</optional>
+                        </dependency>
+                        <dependency>
+                                <groupId>org.springframework.boot</groupId>
+                                <artifactId>spring-boot-starter-test</artifactId>
+                                <scope>test</scope>
+                        </dependency>
+                        <dependency>
+                                <groupId>org.springframework.security</groupId>
+                                <artifactId>spring-security-test</artifactId>
+                                <scope>test</scope>
+                        </dependency>
+
+                        <dependency>
+                                <groupId>com.stripe</groupId>
+                                <artifactId>stripe-java</artifactId>
+                                <version>29.1.0</version>
+                        </dependency>
+                </dependencies>
+
+                <build>
+                        <plugins>
+                                <plugin>
+                                        <groupId>org.apache.maven.plugins</groupId>
+                                        <artifactId>maven-compiler-plugin</artifactId>
+                                        <configuration>
+                                                <source>17</source>
+                                                <target>17</target>
+                                                <annotationProcessorPaths>
+                                                        <path>
+                                                                <groupId>org.projectlombok</groupId>
+                                                                <artifactId>lombok</artifactId>
+                                                        </path>
+                                                </annotationProcessorPaths>
+                                        </configuration>
+                                </plugin>
+
+                                <plugin>
+                                        <groupId>org.springframework.boot</groupId>
+                                        <artifactId>spring-boot-maven-plugin</artifactId>
+                                        <configuration>
+                                                <excludes>
+                                                        <exclude>
+                                                                <groupId>org.projectlombok</groupId>
+                                                                <artifactId>lombok</artifactId>
+                                                        </exclude>
+                                                </excludes>
+                                        </configuration>
+                                </plugin>
+                        </plugins>
+                </build>
+
+        </project>
+
+C:\springboot\kadai_002\食べログ風アプリ\NAGOYAMESHI>dir src\main\resources\static\storage
+ ドライブ C のボリューム ラベルは Windows-SSD です
+ ボリューム シリアル番号は 924B-8744 です
+
+ C:\springboot\kadai_002\食べログ風アプリ\NAGOYAMESHI\src\main\resources\static\storage のディレクトリ        
+
+2025/07/28  08:02    <DIR>          .
+2025/06/27  11:44    <DIR>          ..
+2025/07/18  12:17           192,904 cafe_menu1.jpg
+2025/07/18  12:17           480,322 cafe_menu2.jpg
+2025/07/18  12:17           436,209 chcuka.jpg
+2025/07/18  12:17           480,480 chuka_menu.jpg
+2025/07/18  12:17           175,263 happyberry.jpg
+2025/07/18  12:17           622,357 happyberry_menu.jpg
+2025/07/18  12:17           456,378 hurenchi_menu.jpg
+2025/07/18  12:17           126,508 italian.jpg
+2025/07/18  12:17            25,898 italian_nemu1.jpg
+2025/07/18  12:17           199,037 izakaya_menu1.jpg
+2025/07/18  12:17           358,324 izakaya_menu2.jpg
+2025/07/18  12:17           852,228 kare_menu.jpg
+2025/07/18  12:17         2,046,504 kare_tenpo.jpg
+2025/07/18  12:17           139,526 nabe_menu.jpeg
+2025/07/18  12:17           280,232 nagoya_cafe.jpg
+2025/07/18  12:17           102,130 nagoya_izakaya.jpg
+2025/07/18  12:17            86,810 nagoya_ramen.jpg
+2025/06/27  13:26           113,403 new_restaurant-image1.jpg
+2025/06/27  13:26            48,758 new_restaurant-image1_menu.jpg
+2025/06/27  13:26           126,508 new_restaurant_image2.jpg
+2025/06/27  13:26            25,898 new_restaurant_image2_menu.jpg
+2025/06/27  13:26            71,048 new_restaurant_image3.jpg
+2025/06/27  13:26           176,312 new_restaurant_image3_menu.jpg
+2025/07/18  12:17            67,613 okonomiyaki.jpeg
+2025/07/18  12:17           228,541 pan.jpg
+2025/07/18  12:17           377,665 panya.jpg
+2025/07/18  12:17         9,759,649 ramen_menyu1.jpg
+2025/07/18  12:17            74,828 soba.jpg
+2025/07/18  12:17           113,403 sushi.jpg
+2025/07/18  12:17            48,758 sushi_menu1.jpg
+2025/07/18  12:17            71,048 teppannyaki.jpg
+2025/07/18  12:17           176,312 teppannyaki_menu1.jpg
+2025/06/30  19:14           432,243 top_image1.jpg
+2025/07/18  12:17           199,687 top_image2.jpg
+2025/07/18  12:17            36,926 top_image3.jpg
+2025/07/18  12:17         7,710,878 udon.jpg
+2025/07/18  12:17           135,869 udonsoba.jpg
+2025/07/18  12:17            74,408 yakiniku.jpg
+2025/07/18  12:17           109,779 yakiniku_menu.jpg
+              39 個のファイル          27,240,644 バイト
+               2 個のディレクトリ  365,508,939,776 バイトの空き領域
